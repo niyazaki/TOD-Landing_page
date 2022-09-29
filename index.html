@@ -1,35 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="pastel">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    </script>
+
     <title>Landing Page Zak</title>
   </head>
   <body>
-    <div class="flex header">
-      <div class="flex header-bar">
-        <div class="flex logo">Header Logo</div>
-        <div class="flex link 1">header link one</div>
-        <div class="flex link 2">header link two</div>
-        <div class="flex link 3">header link three</div>
-      </div>
-      <div class="flex header-content">
-        <div class="flex left">
-          <div class="flex headline">This website is awesome</div>
-          <div class="flex text">
-            This website has some subtext Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Iste ad facere saepe quod blanditiis, maiores
-            dicta vitae eveniet, ratione aliquam deleniti minima, eaque
-            perferendis veritatis libero. Amet delectus ad est?
+    <header class="flex header-background">
+      <div class="header">
+        <div class="flex header-bar">
+          <div class="flex left">
+            <div class="logo">Header Logo</div>
           </div>
-          <div class="flex button">Sign Up</div>
+          <div class="flex right ">
+            <div class="linnk 1 text-sm">header link one</div>
+            <div class="linnk 2 text-sm">header link two</div>
+            <div class="linnk 3 text-sm">header link three</div>
+          </div>
         </div>
-        <div class="flex right">
-          <img class="flex header-image" src="./media/img1.webp" />
+        <div class="flex header-content h-96">
+          <div class="left pr-12 w-1/2">
+            <div class="flex headline">This website is awesome</div>
+            <div id="header-text" class="flex text-xs">
+              This website has some subtext Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Iste ad facere saepe quod
+              blanditiis, maiores dicta vitae eveniet, ratione aliquam deleniti
+              minima, eaque perferendis veritatis libero. Amet delectus ad est?
+            </div>
+            <button class="btn-primary mt-8 px-8">Sign Up</button>
+          </div>
+          <div class="right w-1/2 relative">
+            <img class="flex header-image object-cover object-bottom h-full w-full" src="./media/img1.webp" />
+          </div>
         </div>
       </div>
-    </div>
+    </header>
+
     <div class="flex content 1">
       <div class="flex title">Some random information</div>
       <div class="flex carousel">
