@@ -73,8 +73,12 @@ body {
 }
 
 .imgCarousel {
-  width: 150px;
-  height: 150px;
+  width: 152px;
+  height: 152px;
+}
+
+.subtext {
+  inline-size: 152px;
 }
 
 .carousel {
@@ -82,5 +86,14 @@ body {
 }
 
 .content2 {
+  background-color: #e5e7eb;
+}
+
+.text-quote {
+  color: #1f2937;
+}
+
+.footer {
   background-color: #1f2937;
+  color: #f9f5f8;
 }
