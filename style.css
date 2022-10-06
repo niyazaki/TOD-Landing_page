@@ -5,7 +5,7 @@ body {
 .flex {
   display: flex;
   font-family: Roboto, sans-serif;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 .header-background {
@@ -45,7 +45,7 @@ body {
 .logo {
   font-weight: 800;
 }
-.headline {
+.headline1 {
   font-size: 48px;
   color: #f9f5f8;
   font-weight: 800;
@@ -60,17 +60,27 @@ body {
   color: #e5e7eb;
 }
 
-.text .right {
-  /* justify-content: space-around flex-end; */
-  /* align-items: flex-end; */
-  /* justify-content: flex-end; */
-  /* gap: 1px; */
-}
-
 .linnk {
   padding-left: 10px;
   color: #e5e7eb;
 }
 .footer {
+  background-color: #1f2937;
+}
+
+.headline {
+  color: #1f2937;
+}
+
+.imgCarousel {
+  width: 150px;
+  height: 150px;
+}
+
+.carousel {
+  justify-content: space-around;
+}
+
+.content2 {
   background-color: #1f2937;
 }
